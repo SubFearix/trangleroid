@@ -38,7 +38,7 @@ double vvodChisla(const string& prompt) {
         }
     }
 }
-// Фунция для нахождения высоты.
+// Фунция для нахождения высоты
 double Visota(double& a, double& b, double& c, double& d){
 	double l = abs(a-b) / 2;
 	if (c > l && d > l){
