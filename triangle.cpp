@@ -10,7 +10,7 @@ cout << "Ведите вторую сторону: ";
 cin >> b;
 cout << "Ведите третью сторону: ";
 cin >> c;
-if ((a+b>c && c+b>a && a+c>b) || (a>0 && b>0 && c>0)){
+if ((a+b>c && c+b>a && a+c>b) && (a>0 && b>0 && c>0)){
 int perimeter = a+b+c;
 float halfper = perimeter / 2.0;
 float spaceGer = sqrt(halfper * (halfper - a) * (halfper - b) * (halfper - c));
